@@ -1,0 +1,184 @@
+/* If you want to add your own CSS code, please do it in this file */
+ul#pagelist{list-style-type: none;position: relative;}
+ul#pagelist li {background: transparent url(http://www.prophaze.com/wp-content/uploads/2014/06/bd7ef_bullet.png) left center no-repeat;
+padding-left: 18px;text-align: left;font: bold 11px arial, verdana, lucida, sans-serif;text-decoration: none;color: #469dbf;line-height: 22px;margin: 0;
+text-transform: uppercase;}
+#page-custom-box {min-height: 0px;padding: 15px;background-attachment: scroll;background-repeat: repeat;
+background-color: #469dbf;background-position: left top;margin-bottom: 10px;border: 1px solid rgb(65, 80, 150);}
+
+#mk-custom-box-130 {
+    background-attachment: scroll;
+    background-color: #F7F7F7;
+    background-position: left top;
+    background-repeat: repeat;
+    border: 1px solid #E7E7E7;
+    margin-top: 10px;
+	margin-bottom: 10px;
+    min-height: 0;
+    padding: 15px;
+}
+
+.mk-button {
+    -moz-transition: background 0.2s ease-in-out 0s;
+    border-radius: 3px 3px 3px 3px;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-left: 0;
+    margin-right: 10px;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+.mk-button.two-dimension, .mk-button.three-dimension {
+    color: #FFFFFF;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.4);
+}
+.mk-button.two-dimension:hover, .mk-button.three-dimension:hover {
+    color: #FFFFFF;
+}
+.mk-button:hover {
+    color: #FFFFFF;
+}
+.mk-button.two-dimension.dark-color, .mk-button.three-dimension.dark-color {
+    color: #585858 !important;
+    text-shadow: 0 1px rgba(255, 255, 255, 0.5);
+}
+.mk-button.two-dimension.light-color, .mk-button.three-dimension.light-color {
+    color: #FFFFFF !important;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.4);
+}
+.mk-button.two-dimension.light-color:hover, .mk-button.three-dimension.light-color:hover {
+    color: #FFFFFF !important;
+}
+.mk-button.outline-dimension {
+    border-style: solid !important;
+    border-width: 1px !important;
+}
+.mk-button.outline-btn-light {
+    border-color: #FFFFFF !important;
+    color: #FFFFFF;
+}
+.mk-button.outline-btn-light:hover {
+    background-color: #FFFFFF;
+    color: #252525;
+}
+.mk-button.outline-btn-dark {
+    border-color: #252525 !important;
+    color: #252525;
+}
+.mk-button.outline-btn-dark:hover {
+    background-color: #252525;
+    color: #FFFFFF;
+}
+.mk-button[type="submit"], .mk-button[type="button"] {
+    border: 0 none;
+    font-weight: 600;
+    outline: 0 none;
+}
+.mk-button i {
+    line-height: 4px !important;
+    margin: -4px 5px 0 0;
+}
+.mk-button.large {
+    font-size: 14px;
+    line-height: 100%;
+    padding: 15px 24px;
+}
+.mk-button.large i {
+    font-size: 16px;
+}
+.mk-button.medium {
+    font-size: 12px;
+    line-height: 100%;
+    padding: 12px 26px;
+}
+.mk-button.medium i {
+    font-size: 14px;
+}
+.mk-button.small {
+    border-radius: 2px 2px 2px 2px;
+    font-size: 10px;
+    line-height: 100%;
+    padding: 12px 14px;
+}
+.mk-button.small i {
+    font-size: 12px;
+    margin-top: -3px;
+}
+.mk-button.three-dimension {
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.3) inset;
+}
+.mk-button.three-dimension:active {
+    top: 2px;
+}
+.mk-button.two-dimension {
+    background-image: -moz-linear-gradient(center top , rgba(0, 0, 0, 0.07), rgba(0, 0, 0, 0.15));
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.8) inset;
+}
+.mk-button.two-dimension:active {
+    background-image: -moz-linear-gradient(center top , rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.07));
+}
+button.mk-button {
+    background: none repeat scroll 0 50% transparent;
+    border: 0 none !important;
+    line-height: 100%;
+    outline: 0 none;
+}
+button.mk-button::-moz-focus-inner {
+    border: 0 none;
+}
+.mk-button-align {
+    display: inline-block;
+}
+.mk-button-align.right {
+    float: right;
+}
+.mk-button-align.center {
+    display: block !important;
+    text-align: center;
+}
+.mk-button-align.left {
+    text-align: left;
+}
+.mk-button-align.left, .mk-button-align.center, .mk-button-align.right {
+    float: none !important;
+    text-align: center !important;
+    width: 100%;
+}
+.ls-wp-container .mk-button {
+    -moz-transform: scale(0.8);
+}
+.ls-wp-container .mk-button {
+    -moz-transform: scale(0.6);
+    font-size: 10px;
+    line-height: 100%;
+    margin-left: -30px;
+    padding: 8px 10px;
+}
+.ls-wp-container .mk-button i {
+    font-size: 10px;
+    margin-top: -3px;
+}
+.ls-wp-container .mk-button {
+    display: none !important;
+}
+
+
+   .button-266 {
+                background-color:#5a68a5;
+                margin-bottom: 0px;
+                margin-top: 0px;
+
+        }
+        .button-266:hover {
+                background-color:#546199;
+
+        }
+        .button-266.three-dimension  {
+             box-shadow: 0px 3px 0px 0px #485384;
+        }
+        .button-266.three-dimension:active  {
+             box-shadow: 0px 1px 0px 0px #485384;
+        }

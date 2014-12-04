@@ -1,0 +1,87 @@
+/********************** Rounded corners **********************/
+
+/* Input */
+	input[type="text"], input[type="password"], input[type="email"], textarea, select {
+		-webkit-border-radius: 6px 6px 6px 6px;
+		-moz-border-radius: 6px 6px 6px 6px;
+		border-radius: 6px 6px 6px 6px;
+	}
+
+ /* Button */
+	a.button, button, input[type="submit"], input[type="reset"], input[type="button"] {
+		-webkit-border-radius: 6px 6px 6px 6px;
+		-moz-border-radius: 6px 6px 6px 6px;
+		border-radius: 6px 6px 6px 6px;
+	}
+	
+/********************* Colors *********************/
+
+/* Headings font */
+	h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
+		font-weight: bold;
+	}
+	
+/* Subheader */
+	#Subheader ul.breadcrumbs li span { 
+		opacity: 0.3;
+		filter: alpha(opacity = 30);
+	}
+	
+/* Reply button */
+	#comments .commentlist > li .reply a.comment-reply-link {
+		background-color: #A9653F;
+		color:#fff !important;
+	}
+	
+/* Inputs */
+	input[type="text"], input[type="password"], input[type="email"], textarea, select {
+		background: #FFFFFF;
+		color: #999999;
+		border: 1px solid #d8d8d8;
+		-moz-box-shadow: inset 2px 2px 4px 1px rgba(0, 0, 0, 0.10);
+		-webkit-box-shadow: inset 2px 2px 4px 1px rgba(0, 0, 0, 0.10);
+		box-shadow: inset 2px 2px 4px 1px rgba(0, 0, 0, 0.10);
+	}	
+	
+/* Get in touch */
+	.get_in_touch li i {
+		color: #31373C;
+	}	
+	
+/* Footer frames, background & border color */
+	#Footer .Flickr .flickr_badge_image a  {
+		background: #fff; 
+	}
+	
+/* Article box */
+	.article_box {
+		background: #F8F8F8;
+	}
+
+	.article_box p { 
+		color: #8C8C8C;
+	}	
+	
+/* Portfolio */
+	.Projects_header .categories li.label h6 {
+		color: #31373C;
+	}
+	
+	/* bg & color */
+	.Projects_header .categories li.current-cat a, .Projects_header .categories li a:hover {
+		background: #fff;
+		border-color: #d9d9d9;
+		color: #31373c;
+		text-shadow: 1px 1px 0 #fff;
+	}
+	
+	/* link color */
+	.Projects_header .categories li a {
+		color: #676f76;
+		text-shadow: 1px 1px 0 #fff;
+	}
+	
+	.portfolio_item .photo, .wp-caption .photo, .wp-caption > img, .wp-caption > a > img {
+		border-color: #ebebeb;
+		background: #fff;
+	}

@@ -1,0 +1,66 @@
+body {
+	background-image: url("images/body_overlay_subpage.png");
+	background-repeat: no-repeat;
+}
+
+body.template-slider {
+	background-image: url("images/body_overlay.png");
+	background-repeat: no-repeat;
+}
+
+/* Testimonials */
+
+blockquote div.text {
+	background: url("images/testimonials_l.png") no-repeat left top;
+}
+
+/* Twitter */
+.Twitter ul li span { background: url("images/icons/ico_twitter.png") no-repeat left 5px; }
+
+/* Portfolio & Captions mask */
+.portfolio_item .mask, .wp-caption .mask { background: url("images/photo_overlay.png") no-repeat left top; }
+
+/* Search */
+#Top_bar #searchform input[type="submit"], .widget_search form input[type="submit"] { background: url("images/search_submit.png") no-repeat }
+
+/* Menu */
+#Header #menu > ul > li ul .arrow { background: url("images/menu_arrow.png") no-repeat; }
+
+/* Faq */
+.faq .question h5 span.icon { background: url("images/faq_inactive.png") no-repeat; }
+.faq .active h5 span.icon { background: url("images/faq_active.png") no-repeat; }
+
+/* Accordion */
+.accordion .question h5 span.icon { background: url("images/accordion_plus.png") no-repeat; }
+.accordion .active h5 span.icon { background: url("images/accordion_minus.png") no-repeat; }
+
+/* Tags */
+.post .desc p.tags a, .widget_mfn_tag_cloud a { color: #767676 !important; background: url("images/tag_a.png") no-repeat right top; }
+.post .desc p.tags a span, .widget_mfn_tag_cloud a span { background: url("images/tag.png") no-repeat left top }
+.post .desc p.tags a:hover, .widget_mfn_tag_cloud a:hover { color: #1b1b1b !important; background-position: right bottom; }
+.post .desc p.tags a:hover span, .widget_mfn_tag_cloud a:hover span { background-position: left bottom; }
+
+/* Tabs */
+
+.ui-tabs .ui-tabs-nav li a { background: url("images/bg_tabs.png") repeat-x top left; }
+
+/*  */
+.widget_calendar caption { background: url(../../ui/images/bg_widget_header.png) no-repeat 0 0; }
+
+/* Submenu */
+.widget ul.menu li a i { color: D5D5D5; }
+
+/* Social select */
+#Header .addons > .social > a { background: url("images/social_select_arrow.png") no-repeat right top; }
+#Header .addons > .social > a span { background: url("images/social_select.png") no-repeat left top; color: #515a65; }
+#Header .addons .social a:hover span { color: #2e353d; }
+#Header .addons .social a.active { background-position: right bottom; }
+#Header .addons .social a.active span { background-position: left bottom; color: #2e353d; }
+#Header .addons .social .social-box { background: #fff url("images/social_select_box.png") repeat-x left bottom; }
+
+/* Call to action */
+.call_to_action .inside { background: url("images/call_to_action_bg.png") no-repeat left top; }
+
+@media only screen and (max-width: 959px) {
+	.call_to_action .inside { background: #c31e1e !important;}
+}
